@@ -76,12 +76,7 @@ public class RedisConfig {
         // configura o template do Redis e os serializadores para as chaves e os valores
         RedisTemplate<String, Object> template = new RedisTemplate<>();
         template.setConnectionFactory(redisConnectionFactory);
-        template.setKeySerializer(new StringRedisSerializer());
         template.setValueSerializer(new JdkSerializationRedisSerializer());
-        template.setHashKeySerializer(new StringRedisSerializer());
-        template.setHashValueSerializer(new JdkSerializationRedisSerializer());
-        template.afterPropertiesSet();
-        
         return template;
     }
 
