@@ -1,0 +1,22 @@
+cd ..
+cd .\collie.account\
+mvn clean install
+cd ..
+cd .\collie.account-resource\
+mvn clean package
+cd ..
+cd .\collie.auth\
+mvn clean install
+cd ..
+cd .\collie.auth-resource\
+mvn clean package
+cd ..
+cd .\collie.discovery\
+mvn clean install
+cd ..
+cd .\collie.gateway\
+mvn clean install
+cd ..
+cd .\collie.docker-api\
+docker-compose up -d --build
+

@@ -25,3 +25,7 @@ Microsserviço que mantém registro das squads que compõem as suas respectivas 
 
 ## Company
 Microsserviço que mantém registro das empresas que utilizam o serviço.
+
+# Apresentação Slides
+
+https://www.canva.com/design/DAGGGf9LyD0/7Z_buP9QCz8Xg5CTeYrJkg/edit
